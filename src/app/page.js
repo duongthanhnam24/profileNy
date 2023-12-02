@@ -29,7 +29,13 @@ export default function Home() {
                             </a>
                         </div>
                     </div>
-                    <Image src={slider} className=" object-cover" width={660} height={660} />
+                    <Image
+                        src={slider}
+                        className=" object-cover"
+                        width={660}
+                        height={660}
+                        alt="..."
+                    />
                 </div>
 
                 {/* introduce */}
